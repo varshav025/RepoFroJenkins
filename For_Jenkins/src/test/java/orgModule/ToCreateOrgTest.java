@@ -9,5 +9,12 @@ public class ToCreateOrgTest {
 	public void createOrg() {
 		
 		Reporter.log("Created organization",true);
+		
+		String URL = System.getProperty("Url");
+		String BROWSER = System.getProperty("Browser");
+		String UNAME = System.getProperty("Username");
+		String PWD = System.getProperty("Password");
+		
+		System.out.println(BROWSER);
 	}
 }

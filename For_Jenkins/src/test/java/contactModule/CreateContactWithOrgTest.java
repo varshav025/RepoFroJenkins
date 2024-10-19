@@ -9,6 +9,14 @@ public class CreateContactWithOrgTest {
 		
 		
 		System.out.println("Created contact with org");
+		
+		
+		String URL = System.getProperty("Url");
+		String BROWSER = System.getProperty("Browser");
+		String UNAME = System.getProperty("Username");
+		String PWD = System.getProperty("Password");
+		
+		System.out.println(BROWSER);
 	}
 
 }
