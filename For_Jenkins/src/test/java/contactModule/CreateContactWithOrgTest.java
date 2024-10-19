@@ -2,7 +2,7 @@ package contactModule;
 
 import org.testng.annotations.Test;
 
-public class CreateContactWithOrg {
+public class CreateContactWithOrgTest {
 	
 	@Test
 	public void createContactWithOrganization() {
