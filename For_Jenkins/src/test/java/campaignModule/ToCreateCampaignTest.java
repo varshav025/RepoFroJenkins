@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class ToCreateCampaignTest {
 	
 	
-	@Test
+	@Test(groups ="ST")
 	public void createCampaign() {
 		
 		Reporter.log("Created campaign",true);
